@@ -1,10 +1,12 @@
 [package]
 name = "os"
 version = "0.1.0"
-authors = ["Yifan Wu <shinbokuow@163.com>", "egg12138( as a learner )"]
+author = "egg"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
-log = "0.4"
+[features]
+core-panic = []
+format-args-nl = []
+panic-info-message = []
